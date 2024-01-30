@@ -1,1 +1,1 @@
-web: bin/rails server --port=${PORT}
+web: bin/rails server --binding 0.0.0.0 --port=${PORT}
